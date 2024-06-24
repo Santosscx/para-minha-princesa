@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memórias de 1 Ano</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .scrapbook {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .page {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .photo img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+        .description {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Memórias de 1 Ano</h1>
+        <nav>
+            <ul>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#sobre">Mensagem Para MInha Princesa</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="galeria" class="section">
+    <div class="container">
+        <h2>Álbum de Recordações</h2>
+        <div class="scrapbook">
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto1.jpg" alt="Foto 1">
+                </div>
+                <div class="description">
+                    <h3>O começo de tudo</h3>
+                    <p>Dias antes de um certo dia que se tornou o mais importante da minha vida.</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto2.jpg" alt="Foto 2">
+                </div>
+                <div class="description">
+                    <h3>A pensar</h3>
+                    <p>Sed feugiat enim non libero ultricies, in bibendum sapien feugiat.</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto3.jpg" alt="Foto 3">
+                </div>
+                <div class="description">
+                    <h3>Exposição</h3>
+                    <p>O momento em que eu vi que nenhuma das artes do Van Gogh não se comparava a verdadeira obra de arte do brilho dos seus olhos.</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="video" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <video controls>
+                        <source src="videos/video 1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="description">
+                    <h3>Acima do Nivel do Mar</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto4.jpg" alt="Foto 4">
+                </div>
+                <div class="description">
+                    <h3>Pequenos momentos, grandes memórias</h3>
+                    <p>Não importa o lugar, o dia ou a hora, o que importa mesmo é estar com você.</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto5.jpg" alt="Foto 5">
+                </div>
+                <div class="description">
+                    <h3>Deus sempre o centro</h3>
+                    <p>Me conforta o coração ao te ver adorando a Deus e poder ver isso de perto e poder adorar junto com você, é algo que não se explica, se sente.</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto6.jpg" alt="Foto 6">
+                </div>
+                <div class="description">
+                    <h3>Coração acelerado</h3>
+                    <p>Sempre que você chega perto de mim, sinto que meu peito vai se abrir para o meu coração sair, até mesmo em uma simples coisa como você pedir pra tirar uma foto comigo.</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto7.jpg" alt="Foto 7">
+                </div>
+                <div class="description">
+                    <h3>Dia perfeito</h3>
+                    <p>Sem dúvidas um dos melhores aniversários que eu já tive, só de estar com você em um dia tão especial me fez muito feliz. E ainda comemoramos dois aniversários no mesmo dia.</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto8.jpg" alt="Foto 8">
+                </div>
+                <div class="description">
+                    <h3>Momento especial</h3>
+                    <p>Com certeza será um momento em que eu jamais esquecerei de como eu me sinto grato a Deus por ele ter me concedido a honra de ter você ao meu lado e ao lado da minha familia. Nossos momentos em familia são inesqueciveis</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto9.jpg" alt="Foto 9">
+                </div>
+                <div class="description">
+                    <h3>Nosso lugar</h3>
+                    <p>Não consio ver algo melhor do que estar na casa de Deus cultuando a ele junto com você e combinando sempre nossas roupas.</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto10.jpg" alt="Foto 10">
+                </div>
+                <div class="description">
+                    <h3>Compartilhando a vida boa com você</h3>
+                    <p>Com certeza o melhor da vida é poder aproveita-la e compartilha-la com você, cada momento nosso me faz lembrar do quanto a vida é bela.</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto11.jpg" alt="Foto 11">
+                </div>
+                <div class="description">
+                    <h3>Nosso Passeio</h3>
+                    <p>Ainda me lembro da felicidade que eu senti quando saimos juntos, ja fico ansioso para as proximas saidas</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto12.jpg" alt="Foto 12">
+                </div>
+                <div class="description">
+                    <h3>Mais memórias</h3>
+                    <p>Cada dia ao seu lado é uma nova memória que guardo com carinho. E com a permissão de Deus, quero ter mais e mais memórias com você</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto13.jpg" alt="Foto 13">
+                </div>
+                <div class="description">
+                    <h3>A Melhor Foto</h3>
+                    <p>Facilmente este dia teve muitas coisas que ficarão marcadas para sempre, e uma delas com certeza foi esta foto, que eu posso ver que a vida é muito melhor com você</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto14.jpg" alt="Foto 14">
+                </div>
+                <div class="description">
+                    <h3>Felicidade Plena</h3>
+                    <p>Me admiro ao ver que você foi a unica pessoa que me fez sorrir de verdade novamente, me fez sorrir nas fotos mais uma vez. Isso so prova que o meu coração sorri pra você</p>
+                </div>
+            </div>                   
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto15.jpg" alt="Foto 15">
+                </div>
+                <div class="description">
+                    <h3>Juntos Sempre</h3>
+                    <p>Amo cada lugar que vamos juntos, e amo ainda mais este dia que saimos juntos com a Irmã Maria e Adonias, um grande dia que eu pude ver o carinho sendo compartilhado por todos nós ali.</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto16.jpg" alt="Foto 16">
+                </div>
+                <div class="description">
+                    <h3>Sorrisos e Abraços</h3>
+                    <p>Sempre que você vem nos visitar meu coração já nn consegue se segurar dentro do meu peito de tanta alegira ao te ver. Sempre colecionando momentos felizes</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto17.jpg" alt="Foto 17">
+                </div>
+                <div class="description">
+                    <h3>Dias de Sol</h3>
+                    <p>Em todos esses dias, so tive mais certeza ainda de que você é o sol que ilumina os meus dias, que em todos os lugares que vamos, se tornam lugares unicos e memoraveis com você ao meu lado</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="video" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <video controls>
+                        <source src="videos/video 3.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="description">
+                    <h3>Mi Princesa</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/foto18.jpg" alt="Foto 18">
+                </div>
+                <div class="description">
+                    <h3>Capítulo um: Nós</h3>
+                    <p>Acabamos o Primeiro Capítulo com muitas lembranças e momentos repletos de felicidade e carinho, sei que o nosso capitulo dois será bem melhor contigo ao meu lado</p>
+                </div>
+            </div>
+            <div class="page">
+                <div class="photo" onmouseover="expandirImagem(this)" onmouseout="reduzirImagem(this)">
+                    <img src="fotos/IMG-20240322-WA0011.jpg" alt="foto 19">
+                </div>
+                <div class="description">
+                    <h3>Que venha 2025</h3>
+                    <p>Que O Senhor me permitar passar mais e mais anos como esse com você sendo a minha pessoa favortia
+                        <3
+                    </p>   
+        </div>
+    </div>
+</section>
+
+<section id="sobre" class="section">
+    <div class="container">
+        <h2>Dedicado Para minha Princesa</h2>
+        <p>Querida Coração,
+            Minha vontade era de fazer um presente a mão neste mesmo estilo mas eu não sou muito bom com isso então te fiz neste estilo, queria apenas recordar os 366 dias em que passei com você, os 366 dias de proposito que estamos fazendo, eu irei continuar orando para que Deus possar continuar nos abençoando todos os dias e para que ele continue sendo o centro do nosso relacionamento. Obviamente todas as nossas memorias não iriam caber apenas aqui, mas elas com certezas estão no meu coração guardadas com muito carinho e muito amor que tenho. Não é bem um presente mas eu espero que você goste do site, e se você conseguiu achar o link do site, então recebeu o presente kakakakaka, esta ai o preseente que você queria saber o que era, espero que goste também. Enfim me sitno grato a Deus por te ter na minha vida, todos os meus diaas são mais felizes, todos os meus Sorrisos são sinceros e todos os meus sentinmentos são verdadeiros com você, Minha Princesa.
+
+            Com carinho S.T
+        </p>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2023/24 Memórias de 1 Ano. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<!-- Modal para exibir imagens em tela cheia -->
+<div id="modal" class="modal">
+    <span class="fechar" onclick="fecharModal()">&times;</span>
+</div>
+
+</body>
+</html>
+
